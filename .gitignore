@@ -1,0 +1,27 @@
+# === Xcode project ===
+*.xcuserstate
+*.xcuserdata/
+DerivedData/
+build/
+
+# === macOS system ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Rust ===
+**/target/
+**/*.rs.bk
+
+# === Compiled binaries ===
+*.a
+*.o
+*.dSYM/
+*.so
+*.bin
+
+# === Generated Rust libs ===
+Rust_iOS/static_libs/built/
+
+# === Logs ===
+*.log
